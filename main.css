@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+form {
+    text-align: center;
+}
+
+form h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+input, button {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    background-color: rgb(7, 151, 7);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 45px;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
